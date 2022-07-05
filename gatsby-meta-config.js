@@ -1,9 +1,9 @@
 module.exports = {
   title: `sorantak의 기술 블로그🐾`,
-  description: `Blog posted about ...`,
+  description: `개발 경험 위주로 작성한 글들을 모았습니다`,
   author: `[sorantak]`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://sorantak.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -16,7 +16,8 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: '',
+    // utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
