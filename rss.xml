@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[sorantak의 기술 블로그🐾]]></title><description><![CDATA[개발 경험 위주로 작성한 글들을 모았습니다]]></description><link>https://sorantak.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 08 Jul 2022 01:02:23 GMT</lastBuildDate><item><title><![CDATA[Gatsby + Github Pages로 나만의 블로그 만들기]]></title><description><![CDATA[Install   URL SHELL git https://gitforwindows.org/  node.js https://nodejs.org/en/  gatsby   gh-pages   node.js 버전 확인 gatsby 참조 -g…]]></description><link>https://sorantak.github.io/etc/make_my_own_blog_with_gatsby_github_pages/</link><guid isPermaLink="false">https://sorantak.github.io/etc/make_my_own_blog_with_gatsby_github_pages/</guid><pubDate>Tue, 05 Jul 2022 16:08:05 GMT</pubDate><content:encoded>&lt;h2 id=&quot;install&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install&quot; aria-label=&quot;install permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[sorantak의 기술 블로그🐾]]></title><description><![CDATA[개발 경험 위주로 작성한 글들을 모았습니다]]></description><link>https://sorantak.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 08 Jul 2022 02:42:28 GMT</lastBuildDate><item><title><![CDATA[utterances로 블로그에 댓글기능 추가하기]]></title><description><![CDATA[Install 댓글기능을 추가할 블로그는 이미 만들어졌으며 Github “public” repository로 관리되고 있는 상태를 전제로 한다. Github에 로그인한 상태로 아래 링크에 들어가 앱을 다운받는다. utterances Utterances…]]></description><link>https://sorantak.github.io/etc/add_comments_to_my_blog_with_utterances/</link><guid isPermaLink="false">https://sorantak.github.io/etc/add_comments_to_my_blog_with_utterances/</guid><pubDate>Fri, 08 Jul 2022 11:08:33 GMT</pubDate><content:encoded>&lt;h2 id=&quot;install&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install&quot; aria-label=&quot;install permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;댓글기능을 추가할 블로그는 이미 만들어졌으며 Github &lt;strong&gt;“public”&lt;/strong&gt; repository로 관리되고 있는 상태를 전제로 한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Github에 로그인한 상태로 아래 링크에 들어가 앱을 다운받는다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/apps/utterances&quot;&gt;utterances&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;utterances-composition&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#utterances-composition&quot; aria-label=&quot;utterances composition permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Utterances Composition&lt;/h2&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;댓글기능 추가하고 싶은 레포를 선택하고 설치 버튼을 누른다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 567px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 139.66666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC/klEQVRIx5VVS5LTMBDNvTgCl+AwnIDVLGEHxYYFS4oDUKxgQzHDhEz+duK/JOvnprtlG8djZ0CpjmRLfnrd/VpayNrA2ITSfa+tg6qSoI0GpW0/N2eL6QnNHyrtQKoCXr38BB/e/QCABkrxn4BDdkIZME7D25s38PnjF6BWivrR2icZhoUWamPB2AbCzzHjGt2eA7vKsKgEROcUotMZ4nMGxziBU5rDGa2SdR+a8bcL0bsXrGoB0yyH2/sV/FquYLnawO3dEpYPW/i93uJmchAWzRt0RBY0IDeM8+ie6826BnwDbK7tyYz1vL7Wpjd6X7cKWChEtQZdLEuURwVSKqiEACEqfhY8DkZrvHcwbsv7O6jrEAYGNAiYF0ULJPHDCrIs43cZut71FAbrHIIie+97223XCKj/JsXhIikllAhUIguB42utaZoLo+YQmF0mQHpJQJv1BrbbHRwOETOtcIM8L6AoSmaolOoBx+DEPMRQB5dD/CSzo3hlec79mNEcQ+v8JWAURXA8RhDHJxzHPE7TbNLdqeceUOIfNUr//hjDHt09RifY7Y84jrHU5AWzJxl2MTTWYhYLiE9YEUlXIQmKVnFWp9hNM2wBKeACy43cl0L+U3aHGzwCtFgdCcYs6C2DJEGmxBaZUqbdQHed0XfaBNkNZKOh24jESUypWoglAaVpyoKfS4ZjoXvsR1mmKqDSKquKBV5gdViM6zV3J13m0rOGgVjMGMcOlNzpdvd+3oKwBy6H08IwmMIiJ8ZK1fw8p7/ZLCsENHiAHPAAXT1suOz2+wNqMYib4kixbb+ere+LLHtc6CwC1xKsDszoOKq15jBorZmJH1kz6C9iWOOheSiB7SynycwlJbg8AARv4OvawbMbD89fe3jxPiRhlxi8kxu43pp+4x6QklFIA98eKviO9nMn+OQht9nK7tSWrQqCAkh/l3ocxpAnDc4G06xNy9km6RgzeNaGY0qAHMNONrY9D7sLnW+/1tTgalSD525MxcDzfNO11t6AfwANHoYoBmVdNwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;install_utterances&quot;
+        title=&quot;install_utterances&quot;
+        src=&quot;/static/044c460bf9fc7b429db2750019342ade/8710b/install_utterances.png&quot;
+        srcset=&quot;/static/044c460bf9fc7b429db2750019342ade/5a46d/install_utterances.png 300w,
+/static/044c460bf9fc7b429db2750019342ade/8710b/install_utterances.png 567w&quot;
+        sizes=&quot;(max-width: 567px) 100vw, 567px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;utterances는 포스트의 url, pathname, title 등등을 추적해서 git issue 기반으로 동작하기 때문에 이 중에 하나를 선택한다.&lt;/p&gt;
+&lt;p&gt;나는 pathname으로..&lt;/p&gt;
+&lt;p&gt;label, theme 등 옵션 선택을 완료하면 페이지 하단에 나의 선택을 반영한 스크립트가 완성된다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 683px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABMElEQVQoz6WSTU7DMBCFcz7OxoqTsOYEbFiwBYkqtEnjOPG/48Rx8hibqkuoVEufZsaynsdvXDVtCz4MOHcdhJS4d1VZiLEeHXHuGHrGMY6i5IxRzTnt9WB9Xy7ONecDpFIwxkBpXWKu931HpakwxhasdSU658sBrQ3lDlIqjEKWmAUU7ccYkbYNKaUrRVA5C2U8uDBgQoONGv34G7tBwfoZy7oRCUu8QHlYVkxzRLiQ85Q2VHYKEMLjdJI4HBk+Dg3qhp7PZRE0PmAKC/wNFMGZbtR6xrGW+D4O+KxbNExgjuu1i/9wIcJMC9YsKMgzRt1wTv7ZAGUnSLLA3dhVPrenSPPNkKAPAZmsHsnYHDPFs7+4+JmH8VbPeH6fwExCdc+fo6GW9fgi8fDU4vUr4Af51rc3F17z4AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;utterances_script&quot;
+        title=&quot;utterances_script&quot;
+        src=&quot;/static/d2934ae14fa8ac6a76247c07d1dad8b8/bca35/utterances_script.png&quot;
+        srcset=&quot;/static/d2934ae14fa8ac6a76247c07d1dad8b8/5a46d/utterances_script.png 300w,
+/static/d2934ae14fa8ac6a76247c07d1dad8b8/0a47e/utterances_script.png 600w,
+/static/d2934ae14fa8ac6a76247c07d1dad8b8/bca35/utterances_script.png 683w&quot;
+        sizes=&quot;(max-width: 683px) 100vw, 683px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;blog-setting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#blog-setting&quot; aria-label=&quot;blog setting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Blog Setting&lt;/h2&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;위 스크립트를 복사하여 블로그 소스에 추가하면 된다.&lt;/p&gt;
+&lt;p&gt;만약, 나와 같이 블로그가 React 기반이라면 컴포넌트를 추가해야 한다.&lt;/p&gt;
+&lt;p&gt;난 Jbee님의 &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;템플릿&lt;/a&gt;을 사용했더니 컴포넌트는 이미 추가되어 있음 (크👍👍👍)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;comment&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token literal-property property&quot;&gt;utterances&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;sorantak/sorantak.github.io&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-meta-config.js&lt;/code&gt; 파일의 &lt;code class=&quot;language-text&quot;&gt;comment.utterances&lt;/code&gt;의 주석을 풀고 본인의 Github 사용자명과 블로그 레포지토리 주소만 적으면 댓글 영역이 생긴다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;finish&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#finish&quot; aria-label=&quot;finish permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Finish&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 634px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB1klEQVQ4y6VTPYsVQRDcH2kmoqnBIYKIZoLBRSaCoJGxoQingrGRuYInh09937cf8z2zs1t2z9ysD07vndpQ27uzs921XTUVdqLvezjn0IcevbYIUqf8N1EttzVuHz7FsxdHaOoa88UC68USm09fsP54jM3nk9QkhADvfQLfF+yujeOI6uW797j54DEOHj7B8ckM69UKbdtBag1pDRRDSgghJkh6Lui6blobhgGVcR6nrUAtZOrAi/8TVbqGCPgBI2cKLvyvqMZ+gF9J2FmDsNUXbi7N9jO8ZFyO4VlHnl1WLCDGSKr1yUYF+5idY8gftZ1AR+IobTKUhpCKFFT0PmbR9jFkNiuyCjMy1kEbA209tnULZRyc72GJtXF7QN9w01SQfcTGtGRgYy0VdamgpFNSNrO9LkQpWH6Zf6XpZPYk5ZoyM7R/ZHW+aIxDFoURSRQukOFzpq76N+CCzvG5j2eZxkKYChaVHc3Rk7lL9jvPPEcGz1TSWFqtUGuJhnJrFBolk7BTQU8z3GxPIZVKEKQ2C8Qqa1Kc9/VDPkmPPjzHlVe3cP3NPVx7fRc33t7H1aM7mHXzXYZjUrr471cOkw+HMZ/zja7xtZ3jh1jhW7fEd5ERYsBPDWzYCUDV86gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;comments&quot;
+        title=&quot;comments&quot;
+        src=&quot;/static/9e37387a7ad7ec2fc70ec0d1fadd022e/374ac/comments.png&quot;
+        srcset=&quot;/static/9e37387a7ad7ec2fc70ec0d1fadd022e/5a46d/comments.png 300w,
+/static/9e37387a7ad7ec2fc70ec0d1fadd022e/0a47e/comments.png 600w,
+/static/9e37387a7ad7ec2fc70ec0d1fadd022e/374ac/comments.png 634w&quot;
+        sizes=&quot;(max-width: 634px) 100vw, 634px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;TA-DA🥳&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby + Github Pages로 나만의 블로그 만들기]]></title><description><![CDATA[Install   URL SHELL git https://gitforwindows.org/  node.js https://nodejs.org/en/  gatsby   gh-pages   node.js 버전 확인 gatsby 참조 -g…]]></description><link>https://sorantak.github.io/etc/make_my_own_blog_with_gatsby_github_pages/</link><guid isPermaLink="false">https://sorantak.github.io/etc/make_my_own_blog_with_gatsby_github_pages/</guid><pubDate>Tue, 05 Jul 2022 16:08:05 GMT</pubDate><content:encoded>&lt;h2 id=&quot;install&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install&quot; aria-label=&quot;install permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Windows-0078D6?style=flat-square&amp;amp;logo=Windows&amp;amp;logoColor=white&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
